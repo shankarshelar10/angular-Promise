@@ -22,7 +22,7 @@ export class AppComponent implements OnInit {
     console.log(promise);
 
     promise.then((data) => {
-            console.log("Promise rejected with " + JSON.stringify(data));
+            console.log("Promise Resolved with " + JSON.stringify(data));
     }, (error) => {
             console.log("Promise rejected with " + JSON.stringify(error));
 
